@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/gd"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Tên sản phẩm"
+        android:textColor="#7B7B7B"
+        android:layout_marginTop="50dp"
+        android:textSize="15dp"/>
+    <EditText
+        android:id="@+id/ed_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="abc"
+        android:gravity="center"
+        android:textColor="#000"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Giá sản phẩm"
+        android:textColor="#7B7B7B"
+        android:textSize="15dp"/>
+    <EditText
+        android:id="@+id/ed_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="abc"
+        android:gravity="center"
+        android:textColor="#000"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Mô tả sản phẩm"
+        android:textColor="#7B7B7B"
+        android:textSize="15dp"/>
+    <EditText
+        android:id="@+id/ed_de"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="abc"
+        android:gravity="center"
+        android:textColor="#000"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+    <Button
+        android:id="@+id/btnedit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp"
+        android:text="Cập nhật sản phẩm"
+        android:background="@drawable/btn"/>
+
+</LinearLayout>

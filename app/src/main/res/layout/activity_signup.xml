@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#efece7"
+    tools:context=".Signup">
+    <ImageButton
+        android:id="@+id/img_exit"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/exit"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log in"
+        android:id="@+id/login"
+        android:layout_marginLeft="350dp"
+        android:textSize="15dp"
+        android:textColor="#000">
+
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Customer"
+        android:textSize="25dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="First name"
+        android:layout_marginTop="20dp">
+
+    </TextView>
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#000"
+        android:hint="G-Dragon"
+        android:textColorHint="#000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Email"
+        android:layout_marginTop="20dp">
+
+    </TextView>
+    <EditText
+        android:id="@+id/ed_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#000"
+        android:hint="G-Dragon@gmail.com"
+        android:textColorHint="#000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Password"
+        android:layout_marginTop="20dp">
+
+    </TextView>
+    <EditText
+        android:id="@+id/ed_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#000"
+        android:hint="**********"
+        android:inputType="numberPassword"
+        android:textColorHint="#000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Re-Password"
+        android:layout_marginTop="20dp">
+
+    </TextView>
+    <EditText
+        android:id="@+id/edt_repass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:inputType="numberPassword"
+        android:textColor="#000"
+        android:hint="**********"
+        android:textColorHint="#000"/>
+    <Button
+        android:id="@+id/btnsignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="#323130"
+        android:text="Create account"
+        android:textColor="#fff"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+    </Button>
+</LinearLayout>
